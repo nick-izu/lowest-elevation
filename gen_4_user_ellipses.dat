@@ -25,7 +25,7 @@ outputAllRadii: 0
 */
                       
 
-domainSize: {5000,2000,1000} 
+domainSize: {1290,2000,1000} 
     /* Mandatory Parameter.
         Creates a domain with dimension x*y*z centered at the origin.*/
 
@@ -49,12 +49,12 @@ layers:
 numOfRegions: 0
 
 regions:
-{-2500, 2500, -1000, 1000, -500, 500}
+{1210, 2500, -1000, 1000, -500, 500}
 
 
 orientationOption: 0
 
-h: 10
+h: 3
   /* Minimum fracture length scale(meters)
     Any fracture with a feature, such as and intersection, of less than h will be rejected. */
 
@@ -149,7 +149,7 @@ rejectsPerFracture: 5  /*If fracture is rejected, it will be re-translated to a 
 
 //user rectangles and user Ellipses defined in their cooresponding files
 
-famProb: {0.073, 0.0833, 0.177, 0.0833, 0.177, 0.073, 0.177, 0.073, 0.0833} 
+famProb: {0.073, 0.0834, 0.177, 0.0833, 0.177, 0.073, 0.177, 0.073, 0.0832} 
 /* Probability of occurrence of each family of randomly distrubuted rectangles
    and ellipses.
    User-ellipses and user-rectangles insertion will be attempted with 100% 
@@ -409,10 +409,10 @@ rconst: {4,4}  // Constant radius, defined per rectangular family
          user-ellipse, with possibility of being rejected  */
 
    
-userEllipsesOnOff: 1    //0 - User Ellipses off
+userEllipsesOnOff: 0    //0 - User Ellipses off
                         //1 - User Ellipses on
 
-UserEll_Input_File_Path: /dfnWorks/examples/full_regional/define_4_user_ellipses.dat 
+UserEll_Input_File_Path: /dfnWorks/examples/lowest-elevation/define_4_user_ellipses.dat 
 
 /*===========================================================================*/
 /*===========================================================================*/
