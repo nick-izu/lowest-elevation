@@ -1,3 +1,6 @@
-dfnGen /dfnWorks/examples/full_regional/gen_4_user_ellipses.dat
-dfnFlow /dfnWorks/examples/full_regional/dfn_explicit.in
-dfnTrans /dfnWorks/examples/full_regional/PTDFN_control.dat
+dfnGen /dfnWorks/examples/lowest-elevation/gen_4_user_ellipses.dat
+dfnFlow /None/None/
+dfnTrans /None/None/
+
+#dfnFlow /dfnWorks/examples/lowest-elevation/dfn_explicit.in
+#dfnTrans /dfnWorks/examples/lowest-elevation/PTDFN_control.dat
